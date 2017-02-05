@@ -35,3 +35,8 @@ Route::get('/single', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::get('/chats', function () {
+    return view('chat');
+});
+
+Route::post('/signin', 'AuthController@login');

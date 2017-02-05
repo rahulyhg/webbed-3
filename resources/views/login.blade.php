@@ -65,7 +65,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<input type="password" style="width:100%;height: 40px;" id="admin_pass" > 
 				  </div>
 				  <br />
-				  <input value="Login" type="submit" id="login-button" onclick="login()">
+				  <button value="Login" type="button" id="login-button" onclick="login()">Login</button>
 			 </div>	
 			 <div class="clearfix"> </div>
 	   </div>

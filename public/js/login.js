@@ -9,17 +9,16 @@ function login(argument) {
 	var admin_roll_regex = /^\d{9}$/;
 	if(admin_roll.match(admin_roll_regex)){
 		auth_obj = {
-			admin_roll: admin_roll,
-			admin_pass: admin_pass
+			roll_no: admin_roll,
+			password: admin_pass
 		};
 	} else {
 		alert('Invalid Entry');
 		$('#login_button').prop("disabled",false);
-		$('#login-form')[0].reset();
 		return;
 	}
 
-	var route = '/login';
+	var route = '/signin';
 	var method = 'POST';
 
 	var request = $.ajax({
@@ -30,17 +29,16 @@ function login(argument) {
 
 	request.done(function(data){
 		if(data.status_code == 200) {
-			location.href = SITE_BASE_URL + "/home";
+			location.href = SITE_BASE_URL + "/chats";
 		} else if(data.status_code==401) {
 			alert("login failed");
 		} else {
 			$('#login_button').prop("disabled",false);
 			alert(data.message);
-			$('#login-form')[0].reset();
+			
 		}
 	}).fail(function(){
 		$('#login_button').prop("disabled",false);
 		alert('Login failed.');
-		$('#login-form')[0].reset();
 	});
 }
