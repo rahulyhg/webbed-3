@@ -1,7 +1,7 @@
 <html><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CheerBot</title>
+<title>NITT Louus</title>
 <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 <style>* {
   box-sizing: border-box;
@@ -279,7 +279,7 @@ img {
             }
     	});
 		// initial greeting
-		sendMessage("Hi. How are you feeling today?", "left");
+		sendMessage("Hi. What's up?", "left");
     });
 
 function apiCall (event) {
@@ -327,7 +327,7 @@ function apiCall (event) {
         <div class="button minimize"></div>
         <div class="button maximize"></div>
       </div>
-      <div class="title">CheerBot</div>
+      <div class="title">NITT Louus</div>
     </div>
     <ul class="messages">
     </ul>
@@ -349,7 +349,6 @@ function apiCall (event) {
       </div>
     </li>
   </div>
-<script type="text/javascript" src="{{assets/js/speech.js }}"></script>
 <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCblN8x9V0yBMXxqOGgqvMiVZhdy8wQK04"></ script>-->
 </body>
 </html>
