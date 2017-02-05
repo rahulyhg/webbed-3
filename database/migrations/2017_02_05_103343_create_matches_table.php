@@ -13,6 +13,7 @@ class CreateMatchesTable extends Migration
     public function up()
     {
         Schema::create('matches', function (Blueprint $table){
+            $table->increments('id');
             $table->integer('first')->unsigned();
             $table->integer('second')->unsigned();
             $table->foreign('first')->references('id')->on('registrations');
