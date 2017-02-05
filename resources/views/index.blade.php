@@ -118,7 +118,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h4><span class="m_3">Ritul ,</span>software engineer</h4>
 			<img src="images/pic3.jpg" class="img-responsive" alt=""/>
 			<ul class="category_desc">
-			   <li class="cate_head">Based in 900 votes</li>
+			   <li class="cate_head">Based in 900,000 votes</li>
 			   <li class="cate_right">
 			   	 <ul class="list1">
 			   	    <li><i class="heart"> </i></li>
@@ -128,7 +128,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   </li>
 			   <div class="clearfix"> </div>
 			</ul>
-			<h5>Full Profile</h5>
+			<h5><a href="https://www.facebook.com/ritul.jain.9?fref=ts" >Full Profile</a></h5>
 		  </a></div>
 	    </div>
 		<div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
