@@ -12,5 +12,26 @@
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/profiles', function () {
+    return view('profiles');
+});
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/single', function () {
+    return view('single');
+});
+Route::get('/welcome', function () {
     return view('welcome');
 });
