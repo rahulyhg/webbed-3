@@ -62,7 +62,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				  </div>
 				  <div>
 					<span>Webmail Password<label>*</label></span>
-					<input type="password" style="width:100%" id="admin_pass" > 
+					<input type="password" style="width:100%;height: 40px;" id="admin_pass" > 
 				  </div>
 				  <br />
 				  <input value="Login" type="submit" id="login-button" onclick="login()">

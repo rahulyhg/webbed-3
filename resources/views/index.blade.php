@@ -55,7 +55,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</a>
 		</div>
 		<div class="header_right">
-			<a href="/login" class="btn1 btn-1 btn1-1b">Login through Webmail</a>
+			<a href="/login" class="btn1 btn-1 btn1-1b">Login with Webmail</a>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -113,6 +113,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h5>Full Profile</h5>
 		</a> </div>
 		</div>
+		<div class="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
+		  <div class="grid_4"><a href="single.html">
+			<h4><span class="m_3">Ritul ,</span>software engineer</h4>
+			<img src="images/pic3.jpg" class="img-responsive" alt=""/>
+			<ul class="category_desc">
+			   <li class="cate_head">Based in 900 votes</li>
+			   <li class="cate_right">
+			   	 <ul class="list1">
+			   	    <li><i class="heart"> </i></li>
+			   	    <li><i class="heart"> </i></li>
+			   	    <li><i class="heart"> </i></li>
+			   	 </ul>
+			   </li>
+			   <div class="clearfix"> </div>
+			</ul>
+			<h5>Full Profile</h5>
+		  </a></div>
+	    </div>
 		<div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
 		   <div class="grid_4"><a href="single.html">
 			<h4><span class="m_3">luke ,</span>engineer-usa</h4>
@@ -124,24 +142,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			   	   <li><i class="heart"> </i></li>
 			   	   <li><i class="heart"> </i></li>
 			   	   <li><i class="heart"> </i></li>
-			   	 </ul>
-			   </li>
-			   <div class="clearfix"> </div>
-			</ul>
-			<h5>Full Profile</h5>
-		  </a></div>
-	    </div>
-		<div class="col-md-4 wow fadeInRight" data-wow-delay="0.4s">
-		  <div class="grid_4"><a href="single.html">
-			<h4><span class="m_3">max ,</span>security-usa</h4>
-			<img src="images/pic3.jpg" class="img-responsive" alt=""/>
-			<ul class="category_desc">
-			   <li class="cate_head">Based in 900 votes</li>
-			   <li class="cate_right">
-			   	 <ul class="list1">
-			   	    <li><i class="heart"> </i></li>
-			   	    <li><i class="heart"> </i></li>
-			   	    <li><i class="heart"> </i></li>
 			   	 </ul>
 			   </li>
 			   <div class="clearfix"> </div>
